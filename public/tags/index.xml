@@ -11,6 +11,49 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 17 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>COCO</title>
+      <link>http://localhost:1313/blog/tags/coco/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/coco/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Object Detetion</title>
+      <link>http://localhost:1313/blog/tags/object-detetion/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/object-detetion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VOC</title>
+      <link>http://localhost:1313/blog/tags/voc/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/voc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>YOLO</title>
+      <link>http://localhost:1313/blog/tags/yolo/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/yolo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docs</title>
+      <link>http://localhost:1313/blog/tags/docs/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/docs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PaperMod</title>
+      <link>http://localhost:1313/blog/tags/papermod/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/papermod/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

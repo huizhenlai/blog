@@ -40,35 +40,6 @@ params:
   showtoc: false
   tocopen: false
 
-
-  params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
-
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
-
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
@@ -100,16 +71,25 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there"
-    Content: 👋 Welcome to my blog
+    Title: "Hi there is my Blog 👋"
+    Content: >
+      Welcome
+
+      - Back up important materials.
+
+      - Urge yourself to write summaries.
+
+      - Record technical processes.
 
   socialIcons:
+    - name: github
+      url: "https://github.com/huizhenlai"
     - name: zhihu
       url: "https://www.zhihu.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+    - name: qq
+      url: "https://qq.com"
+    - name: Den
+      url: ""
 
   analytics:
     google:
@@ -142,18 +122,22 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: archive
+      name: Archive
+      url: /Archive/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: Search
+      name: Search
+      url: /Search/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: Tags
+      name: Tags
+      url: /Tags/
       weight: 30
+    - identifier: Wiki
+      name: Wiki
+      url: https://example.org
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
