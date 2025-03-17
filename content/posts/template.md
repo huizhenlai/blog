@@ -1,17 +1,10 @@
 ---
 title: "Template"
-summary: Read this template to write other markdown
-date: 2024-03-17
-series: ["Template"]
-weight: 1
-aliases: ["/papermod-installation"]
-tags: ["PaperMod", "Docs"]
-author: ["lhz"]
-draft: false
-cover:
-  image: images/papermod-cover.png
-  hiddenInList: true
-social:
-  fediverse_creator: "@adityatelange@mastodon.social"
+summary: Describe the template files
+date: 2025-03-17
+draft: false 
+tags: []  # 标签，可以是多个
+categories: ["Tutorials"]  # 分类
+author: "lhz"  # 作者
 ---
 

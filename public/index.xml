@@ -14,53 +14,25 @@
     <lastBuildDate>Mon, 17 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Template</title>
-      <link>http://localhost:1313/blog/posts/template/</link>
+      <title>Microwave traffic flow detector</title>
+      <link>http://localhost:1313/blog/posts/%E5%BE%AE%E6%B3%A2%E4%BA%A4%E9%80%9A%E6%B5%81%E6%A3%80%E6%B5%8B%E5%99%A8/</link>
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/template/</guid>
-      <description>Read this template to write other markdown</description>
+      <guid>http://localhost:1313/blog/posts/%E5%BE%AE%E6%B3%A2%E4%BA%A4%E9%80%9A%E6%B5%81%E6%A3%80%E6%B5%8B%E5%99%A8/</guid>
+      <description>Microwave traffic flow detector GB file</description>
     </item>
     <item>
-      <title>Object detetion data format</title>
+      <title>Object detection data format</title>
       <link>http://localhost:1313/blog/posts/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E7%9B%B8%E5%85%B3%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/</link>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/posts/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E7%9B%B8%E5%85%B3%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/</guid>
       <description>Describe the object detection data fomrat such as YOLO, COCO and VOC</description>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:1313/blog/posts/%E5%BE%AE%E6%B3%A2%E4%BA%A4%E9%80%9A%E6%B5%81%E6%A3%80%E6%B5%8B%E5%99%A8/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/%E5%BE%AE%E6%B3%A2%E4%BA%A4%E9%80%9A%E6%B5%81%E6%A3%80%E6%B5%8B%E5%99%A8/</guid>
-      <description>&lt;h1 id=&#34;微波交通流检测器&#34;&gt;微波交通流检测器&lt;/h1&gt;
-&lt;p&gt;Microwave traffic flow detector&lt;/p&gt;
-&lt;h2 id=&#34;定义&#34;&gt;定义&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;检测断面&lt;/strong&gt;：道路横断面区域，交通方向分为道路断面，车道线分为车道断面&lt;/p&gt;
-&lt;p&gt;车流量：统计时间内，通过检测断面的车辆数&lt;/p&gt;
-&lt;p&gt;断面平均车速：统计时间内，通过检测断面的车辆瞬时速度的算术平均值&lt;/p&gt;
-&lt;p&gt;时间占有率：统计时间内，检测断面被车辆占有的时间与该统计时间的百分比？&lt;/p&gt;
-&lt;p&gt;车头时距：对于同向行驶的两连续车辆，前车头与后车头通过检测断面的时间间隔&lt;/p&gt;
-&lt;p&gt;车间时距：对于同向行驶的两连续车辆，前车尾与后车头通过检测断面的时间间隔&lt;/p&gt;
-&lt;p&gt;分为两种模式：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;侧向检测模式：雷达天线阵面法线方向与车流方向近似垂直&lt;/li&gt;
-&lt;li&gt;正向检测模式：雷达天线阵面法线方向与车流方向近似平行&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;指标&#34;&gt;指标&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;车流量精度应不低于 95%&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;检测断面平均车速精度应不低于 95%&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;$$
-V_{sec} = \frac{1}{N}\sum_{i=1}^N v_i
-$$&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <title>Template</title>
+      <link>http://localhost:1313/blog/posts/template/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/template/</guid>
+      <description>Describe the template files</description>
     </item>
   </channel>
 </rss>
