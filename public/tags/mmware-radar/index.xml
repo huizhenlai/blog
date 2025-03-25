@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mmware Radar on My blog</title>
+    <link>http://localhost:1313/blog/tags/mmware-radar/</link>
+    <description>Recent content in Mmware Radar on My blog</description>
+    <image>
+      <title>My blog</title>
+      <url>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/mmware-radar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>雷视外参标定</title>
+      <link>http://localhost:1313/blog/posts/%E9%9B%B7%E8%A7%86%E5%A4%96%E5%8F%82%E6%A0%87%E5%AE%9A/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/%E9%9B%B7%E8%A7%86%E5%A4%96%E5%8F%82%E6%A0%87%E5%AE%9A/</guid>
+      <description>Describe the template files</description>
+    </item>
+  </channel>
+</rss>

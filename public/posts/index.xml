@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Microwave traffic flow detector</title>
@@ -19,6 +19,27 @@
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/posts/%E5%BE%AE%E6%B3%A2%E4%BA%A4%E9%80%9A%E6%B5%81%E6%A3%80%E6%B5%8B%E5%99%A8/</guid>
       <description>Microwave traffic flow detector GB file</description>
+    </item>
+    <item>
+      <title>我是怎么搭建自己的个人网站的</title>
+      <link>http://localhost:1313/blog/posts/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3%E8%AE%B0%E5%BD%95/</guid>
+      <description>目前对前端完全不懂, 基于开源资料和ChatGPT进行搭建, 效果基本也能够令我满意</description>
+    </item>
+    <item>
+      <title>摄像头标定方法</title>
+      <link>http://localhost:1313/blog/posts/%E8%A7%86%E8%A7%89%E6%A0%87%E5%AE%9A%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/%E8%A7%86%E8%A7%89%E6%A0%87%E5%AE%9A%E6%96%B9%E6%B3%95/</guid>
+      <description>Describe the template files</description>
+    </item>
+    <item>
+      <title>雷视外参标定</title>
+      <link>http://localhost:1313/blog/posts/%E9%9B%B7%E8%A7%86%E5%A4%96%E5%8F%82%E6%A0%87%E5%AE%9A/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/%E9%9B%B7%E8%A7%86%E5%A4%96%E5%8F%82%E6%A0%87%E5%AE%9A/</guid>
+      <description>Describe the template files</description>
     </item>
     <item>
       <title>Object detection data format</title>
