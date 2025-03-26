@@ -1,6 +1,6 @@
 baseURL: https://huizhenlai.github.io/blog/
 languageCode: en-us
-title: My blog
+title: voidpxL's blog
 theme: 'PaperMod'
 
 enableRobotsTXT: true
@@ -25,7 +25,7 @@ params:
   disableThemeToggle: false
   math : true
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -43,15 +43,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/ssets/favicon.png"
+    favicon16x16: "assets/favicon.png"
+    favicon32x32: "assets/favicon.png"
+    apple_touch_icon: "assets/favicon.png"
+    safari_pinned_tab: "assets/favicon.png"
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
+    icon: "assets/favicon.png"
     iconHeight: 35
 
   # profile-mode
@@ -71,15 +71,15 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there is voidpxL Blog 👋"
+    Title: "Hi, welcome to voidpxL's Blog 👋"
     Content: >
-      Welcome
+      主要涵盖以下几个内容:
 
-      - Back up important materials.
+      - 1. 算法和工程流程总结
 
-      - Urge yourself to write summaries.
+      - 2. 技术学习记录
 
-      - Record technical processes.
+      - 3. 复现算法模型展示
 
   socialIcons:
     - name: github
@@ -88,8 +88,8 @@ params:
       url: "https://www.zhihu.com/"
     - name: qq
       url: "https://qq.com"
-    - name: Den
-      url: ""
+    - name: bilibili
+      url: "https://www.bilibili.com"
 
   analytics:
     google:
@@ -123,20 +123,20 @@ params:
 menu:
   main:
     - identifier: archive
-      name: Archive
-      url: /Archive/
+      name: Archives
+      url: archives/
       weight: 10
     - identifier: Search
       name: Search
-      url: /Search/
+      url: search/
       weight: 20
     - identifier: Tags
       name: Tags
       url: /Tags/
       weight: 30
-    - identifier: Wiki
-      name: Wiki
-      url: https://example.org
+    - identifier: Me
+      name: Me
+      url: https://huizhenlai.github.io
       weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

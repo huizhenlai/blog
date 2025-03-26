@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on My blog</title>
+    <title>Tags on voidpxL&#39;s blog</title>
     <link>http://localhost:1313/blog/tags/</link>
-    <description>Recent content in Tags on My blog</description>
+    <description>Recent content in Tags on voidpxL&#39;s blog</description>
     <image>
-      <title>My blog</title>
+      <title>voidpxL&#39;s blog</title>
       <url>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
@@ -18,6 +18,20 @@
       <link>http://localhost:1313/blog/tags/camera/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/tags/camera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fusion</title>
+      <link>http://localhost:1313/blog/tags/fusion/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/fusion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mmware Radar</title>
+      <link>http://localhost:1313/blog/tags/mmware-radar/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/mmware-radar/</guid>
       <description></description>
     </item>
     <item>
@@ -46,13 +60,6 @@
       <link>http://localhost:1313/blog/tags/yolo/</link>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/tags/yolo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mmware</title>
-      <link>http://localhost:1313/blog/tags/mmware/</link>
-      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/mmware/</guid>
       <description></description>
     </item>
   </channel>
