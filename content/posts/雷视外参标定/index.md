@@ -1,6 +1,6 @@
 ---
 title: "雷视外参标定方法"
-summary: Describe the template files
+summary: 定义雷达和摄像头的参考系，并进行坐标转换。
 date: 2025-03-25
 draft: false
 weight: 3
@@ -8,9 +8,10 @@ tags: [Camera ,Mmware Radar, Fusion]  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
 math: true
+hideTitle: true
 ---
 
-![RC_coordiante](images\RC_coordiante.png)
+![RC_coordiante](RC_coordiante.png)
 
 # 雷视外参标定
 

@@ -3,13 +3,13 @@ title: "Object detection data format"
 summary: Describe the object detection data fomrat such as YOLO, COCO and VOC
 date: 2025-03-17
 draft: false 
-tags: ["Object detetion", "YOLO", "COCO", "VOC"]  # 标签，可以是多个
+tags: ["Object Detetion"]  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
+hideTitle: true
 ---
 
-
-# 基本类型
+# Object Detection Data Format
 
 三个类型: YOLO、COCO、VOC
 

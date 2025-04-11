@@ -8,6 +8,7 @@ tags: [Camera]  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
 math: true
+hideTitle: true
 ---
 
 # 基于YOLO11微调BDD100K的目标检测任务
