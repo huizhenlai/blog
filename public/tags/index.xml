@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on voidpxL&#39;s blog</title>
     <link>http://localhost:1313/blog/tags/</link>
     <description>Recent content in Tags on voidpxL&#39;s blog</description>
-    <image>
-      <title>voidpxL&#39;s blog</title>
-      <url>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Camera</title>
       <link>http://localhost:1313/blog/tags/camera/</link>
-      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/tags/camera/</guid>
       <description></description>
     </item>

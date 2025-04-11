@@ -8,6 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+
 minify:
   disableXML: true
   minifyOutput: true
@@ -39,7 +40,7 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-
+  disableSchema: true
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true

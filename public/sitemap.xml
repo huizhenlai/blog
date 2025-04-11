@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blog/posts/%E5%9F%BA%E4%BA%8Eyolo11%E5%BE%AE%E8%B0%83bdd100k%E7%9A%84%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%BB%BB%E5%8A%A1/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/%E8%A7%86%E8%A7%89%E5%8D%95%E7%9B%AE%E6%B5%8B%E8%B7%9D%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2025-04-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/posts/%E8%A7%86%E8%A7%89%E6%A0%87%E5%AE%9A%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,28 +17,34 @@
     <loc>http://localhost:1313/blog/posts/%E5%BE%AE%E6%B3%A2%E4%BA%A4%E9%80%9A%E6%B5%81%E6%A3%80%E6%B5%8B%E5%99%A8/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/posts/chatgpt%E6%8F%90%E7%A4%BA%E8%AF%8D/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/template/</loc>
+    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/tags/camera/</loc>
-    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/tutorials/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/fusion/</loc>
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/mmware-radar/</loc>
-    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/posts/</loc>
-    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
-    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/categories/tutorials/</loc>
-    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/posts/%E5%BB%BA%E7%AB%99%E7%9B%B8%E5%85%B3%E8%AE%B0%E5%BD%95/</loc>
@@ -45,6 +57,9 @@
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/object-detetion/</loc>
+    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/%E8%BD%A6%E9%81%93%E6%A3%80%E6%B5%8B/</loc>
     <lastmod>2025-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/voc/</loc>
