@@ -336,11 +336,3 @@ classes = ['class1', 'class2', 'class3']  # 自定义类别
 
 convert_voc_to_yolo(voc_path, yolo_path, classes)
 ```
-
-
-
-1022 769 
-
-428 426
-
-570 530

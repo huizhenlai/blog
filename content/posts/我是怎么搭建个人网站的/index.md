@@ -38,21 +38,35 @@ hideTitle: true
 
 ```bash
 content/
-    ├── about
+    ├── about/
     │   ├── index.md
-    ├── posts
-    │   ├── my-post
+    ├── posts/
+    │   ├── my-post/
     │   │   ├── content1.md
     │   │   ├── image1.jpg
     │   │   └── index.md
-    │   └── my-other-post
+    │   └── my-other-post/
     │       └── index.md
-    └── another-section
+    └── another-section/
         ├── ..
-        └── not-a-leaf-bundle
+        └── not-a-leaf-bundle/
             ├── ..
-            └── another-leaf-bundle
+            └── another-leaf-bundle/
                 └── index.md
 ```
 
 在站点上，路径显示的是文件夹的名字，而文档的名字需要取成index.md。
+
+
+
+## hugo v0.146.0 版本，Missing template definitions cause production build failure
+
+[Missing template definitions cause production build failure · Issue #1719 · adityatelange/hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod/issues/1719)
+
+暂时不知道怎么解决，回退到v0.145.0版本能够解决。
+
+
+
+## 侧边目录
+
+[Hugo侧边目录 | 3rd's Blog](https://www.333rd.net/zh/posts/tech/hugo侧边目录/)
