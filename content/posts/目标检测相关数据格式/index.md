@@ -6,6 +6,7 @@ draft: false
 tags: ["Object Detetion"]  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
+series: ["目标检测工程实践"]
 hideTitle: true
 ---
 
@@ -235,8 +236,6 @@ bndbox中的数据 (xmin,ymin, xmax, ymax)，分别为bbox的左上角和右下�
 ```
 
 `segmentation` 为分割的多边形，
-
-
 
 
 

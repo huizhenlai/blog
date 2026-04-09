@@ -8,6 +8,8 @@ tags: [Camera]  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
 math: true
+series: ["目标检测工程实践"]
+featured: true
 hideTitle: true
 ---
 
@@ -399,15 +401,17 @@ result = model.train(data = "100k/test/*.jpg", save = True, conf = 0.5)
 
 ## 效果对比
 
-训练了YOLO11m和YOLOv5s，对比验证集上的结果：
+训练了YOLO11m和YOLOv5s/v5n，均以16的batch_size训练50epoch，对比验证集上的结果：
 
-|          | YOLOv5s  | YOLO11m  |
-| :------: | :------: | :------: |
-|  mAP50   |  0.388   |  0.455   |
-| 推断速度 |    1     | 差不很多 |
-| 裁剪尺寸 | 640×640  | 384×640  |
-| 权重大小 | 14076 kB | 39562 kB |
-|  GFloPs  |   15.9   |   67.7   |
+|          |    YOLOv5n    |   YOLOv5s   | YOLO11m  |
+| :------: | :-----------: | :---------: | :------: |
+|  mAP50   |     0.318     |    0.388    |  0.455   |
+| 推断速度 | $\approx 0.5$ | $\approx 1$ |    1     |
+| 裁剪尺寸 |    640×640    |   640×640   | 384×640  |
+| 权重大小 |    3759 kB    |  14076 kB   | 39562 kB |
+|  GFloPs  |      4.2      |    15.9     |   67.7   |
+
+推断速度暂时还没有排除前后处理的影响，后续再测。
 
 
 

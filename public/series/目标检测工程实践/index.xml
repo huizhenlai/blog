@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>目标检测工程实践 on voidpxL&#39;s blog</title>
+    <link>https://huizhenlai.github.io/blog/series/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/</link>
+    <description>Recent content in 目标检测工程实践 on voidpxL&#39;s blog</description>
+    <image>
+      <title>voidpxL&#39;s blog</title>
+      <url>https://huizhenlai.github.io/blog/assets/favicon.png</url>
+      <link>https://huizhenlai.github.io/blog/assets/favicon.png</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://huizhenlai.github.io/blog/series/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基于YOLO11微调BDD100K的目标检测任务</title>
+      <link>https://huizhenlai.github.io/blog/posts/%E5%9F%BA%E4%BA%8Eyolo11%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%BB%BB%E5%8A%A1/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://huizhenlai.github.io/blog/posts/%E5%9F%BA%E4%BA%8Eyolo11%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%BB%BB%E5%8A%A1/</guid>
+      <description>Ultralytics实现的YOLO11版本，在车载任务上模型略有不足，在BDD100K数据集上进行微调，以实现恶劣天气、光照条件下的目标检测，还加入了yolov5的版本。</description>
+    </item>
+    <item>
+      <title>Object detection data format</title>
+      <link>https://huizhenlai.github.io/blog/posts/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E7%9B%B8%E5%85%B3%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://huizhenlai.github.io/blog/posts/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E7%9B%B8%E5%85%B3%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/</guid>
+      <description>Describe the object detection data fomrat such as YOLO, COCO and VOC</description>
+    </item>
+  </channel>
+</rss>

@@ -8,6 +8,8 @@ tags: []  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
 math: true
+series: ["工具与工作流"]
+hideTitle: true
 ---
 
 # Instruction tuned LLMs

@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on voidpxL&#39;s blog</title>
-    <link>http://localhost:1313/blog/tags/</link>
+    <link>https://huizhenlai.github.io/blog/tags/</link>
     <description>Recent content in Tags on voidpxL&#39;s blog</description>
     <image>
       <title>voidpxL&#39;s blog</title>
-      <url>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://huizhenlai.github.io/blog/assets/favicon.png</url>
+      <link>https://huizhenlai.github.io/blog/assets/favicon.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://huizhenlai.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Camera</title>
-      <link>http://localhost:1313/blog/tags/camera/</link>
+      <link>https://huizhenlai.github.io/blog/tags/camera/</link>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/camera/</guid>
+      <guid>https://huizhenlai.github.io/blog/tags/camera/</guid>
       <description></description>
     </item>
     <item>
       <title>Fusion</title>
-      <link>http://localhost:1313/blog/tags/fusion/</link>
+      <link>https://huizhenlai.github.io/blog/tags/fusion/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/fusion/</guid>
+      <guid>https://huizhenlai.github.io/blog/tags/fusion/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/blog/tags/hugo/</link>
+      <link>https://huizhenlai.github.io/blog/tags/hugo/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/hugo/</guid>
+      <guid>https://huizhenlai.github.io/blog/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Mmware Radar</title>
-      <link>http://localhost:1313/blog/tags/mmware-radar/</link>
+      <link>https://huizhenlai.github.io/blog/tags/mmware-radar/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/mmware-radar/</guid>
+      <guid>https://huizhenlai.github.io/blog/tags/mmware-radar/</guid>
       <description></description>
     </item>
     <item>
       <title>Object Detetion</title>
-      <link>http://localhost:1313/blog/tags/object-detetion/</link>
+      <link>https://huizhenlai.github.io/blog/tags/object-detetion/</link>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/object-detetion/</guid>
+      <guid>https://huizhenlai.github.io/blog/tags/object-detetion/</guid>
       <description></description>
     </item>
   </channel>

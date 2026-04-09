@@ -8,6 +8,7 @@ tags: [Camera]  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
 math: true
+series: ["视觉几何与测速"]
 hideTitle: true
 ---
 

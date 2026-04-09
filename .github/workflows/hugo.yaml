@@ -5,6 +5,8 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches:
+      - main
+      - master
       - gh-pages
 
   # Allows you to run this workflow manually from the Actions tab
@@ -34,7 +36,7 @@ jobs:
     env:
       HUGO_VERSION: 0.145.0
       HUGO_ENVIRONMENT: production
-      TZ: America/Los_Angeles
+      TZ: Asia/Shanghai
     steps:
       - name: Install Hugo CLI
         run: |

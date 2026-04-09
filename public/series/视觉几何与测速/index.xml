@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>视觉几何与测速 on voidpxL&#39;s blog</title>
+    <link>https://huizhenlai.github.io/blog/series/%E8%A7%86%E8%A7%89%E5%87%A0%E4%BD%95%E4%B8%8E%E6%B5%8B%E9%80%9F/</link>
+    <description>Recent content in 视觉几何与测速 on voidpxL&#39;s blog</description>
+    <image>
+      <title>voidpxL&#39;s blog</title>
+      <url>https://huizhenlai.github.io/blog/assets/favicon.png</url>
+      <link>https://huizhenlai.github.io/blog/assets/favicon.png</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://huizhenlai.github.io/blog/series/%E8%A7%86%E8%A7%89%E5%87%A0%E4%BD%95%E4%B8%8E%E6%B5%8B%E9%80%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>单目测距测速方法</title>
+      <link>https://huizhenlai.github.io/blog/posts/%E8%A7%86%E8%A7%89%E5%8D%95%E7%9B%AE%E6%B5%8B%E8%B7%9D%E6%B5%8B%E9%80%9F%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://huizhenlai.github.io/blog/posts/%E8%A7%86%E8%A7%89%E5%8D%95%E7%9B%AE%E6%B5%8B%E8%B7%9D%E6%B5%8B%E9%80%9F%E6%96%B9%E6%B3%95/</guid>
+      <description>基于单目摄像头的测距测速方法探索和总结，先专注于传统方法，不去做深度学习</description>
+    </item>
+  </channel>
+</rss>

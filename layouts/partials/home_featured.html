@@ -1,0 +1,26 @@
+{{- $pages := .pages }}
+{{- if gt (len $pages) 0 }}
+<section class="featured-section">
+  <div class="featured-section-header">
+    <h2>精选文章</h2>
+    <p>先看这些内容，能更快判断这个博客的关注点和文章风格。</p>
+  </div>
+  <div class="featured-grid">
+    {{- range $pages }}
+    <article class="featured-card">
+      <div class="featured-card-meta">{{ partial "post_meta.html" . }}</div>
+      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      {{- with (.GetTerms "series") }}
+      <div class="featured-card-series">
+        {{- range first 1 . }}
+        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+        {{- end }}
+      </div>
+      {{- end }}
+      <p>{{ .Summary | plainify | htmlUnescape }}</p>
+      <a class="featured-card-link" href="{{ .Permalink }}">阅读全文</a>
+    </article>
+    {{- end }}
+  </div>
+</section>
+{{- end }}

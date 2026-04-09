@@ -8,6 +8,8 @@ tags: [Camera]  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
 math: true
+series: ["标定与坐标系"]
+featured: true
 hideTitle: true
 ---
 
@@ -110,6 +112,12 @@ $$
 3. 使用 OpenCV 的 `cv2.calibrateCamera()` 计算相机内参。
 
 棋盘格可以使用 [Camera Calibration Pattern Generator – calib.io](https://calib.io/pages/camera-calibration-pattern-generator) 校准网站的PDF用A4纸固定尺寸打印，也可以购买专业的标定板进行标定。但是需要注意的是，标定板尽可能买尺寸大一点的，否则对于长焦相机，太小的标定板会模糊导致参数不准。
+
+标定板最好要大于视场的 $1/3$ ，需要棋盘格的所有图像都可见，边缘的图像也尽可能填充。
+
+检测出棋盘格之后，可以进行亚像素细化，以找到具有亚像素精度的鞍点。
+
+并且要求横纵的格点不一样，但必须都是方格。
 
 
 

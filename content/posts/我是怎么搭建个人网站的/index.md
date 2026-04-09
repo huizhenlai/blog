@@ -6,6 +6,7 @@ draft: false
 tags: [Hugo]  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
+series: ["博客建设"]
 hideTitle: true
 ---
 

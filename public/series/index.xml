@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>文章系列 on voidpxL&#39;s blog</title>
+    <link>https://huizhenlai.github.io/blog/series/</link>
+    <description>Recent content in 文章系列 on voidpxL&#39;s blog</description>
+    <image>
+      <title>voidpxL&#39;s blog</title>
+      <url>https://huizhenlai.github.io/blog/assets/favicon.png</url>
+      <link>https://huizhenlai.github.io/blog/assets/favicon.png</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://huizhenlai.github.io/blog/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>目标检测工程实践</title>
+      <link>https://huizhenlai.github.io/blog/series/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://huizhenlai.github.io/blog/series/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>视觉几何与测速</title>
+      <link>https://huizhenlai.github.io/blog/series/%E8%A7%86%E8%A7%89%E5%87%A0%E4%BD%95%E4%B8%8E%E6%B5%8B%E9%80%9F/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://huizhenlai.github.io/blog/series/%E8%A7%86%E8%A7%89%E5%87%A0%E4%BD%95%E4%B8%8E%E6%B5%8B%E9%80%9F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>标定与坐标系</title>
+      <link>https://huizhenlai.github.io/blog/series/%E6%A0%87%E5%AE%9A%E4%B8%8E%E5%9D%90%E6%A0%87%E7%B3%BB/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://huizhenlai.github.io/blog/series/%E6%A0%87%E5%AE%9A%E4%B8%8E%E5%9D%90%E6%A0%87%E7%B3%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>博客建设</title>
+      <link>https://huizhenlai.github.io/blog/series/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://huizhenlai.github.io/blog/series/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>雷达与视觉融合</title>
+      <link>https://huizhenlai.github.io/blog/series/%E9%9B%B7%E8%BE%BE%E4%B8%8E%E8%A7%86%E8%A7%89%E8%9E%8D%E5%90%88/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://huizhenlai.github.io/blog/series/%E9%9B%B7%E8%BE%BE%E4%B8%8E%E8%A7%86%E8%A7%89%E8%9E%8D%E5%90%88/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

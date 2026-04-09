@@ -1,12 +1,21 @@
 baseURL: https://huizhenlai.github.io/blog/
-languageCode: en-us
+languageCode: zh-cn
+defaultContentLanguage: zh-cn
 title: voidpxL's blog
 theme: 'PaperMod'
+mainSections:
+  - posts
 
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 
 minify:
@@ -15,13 +24,13 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: voidpxL's blog
+  description: "聚焦雷达感知、视觉算法、多传感器融合与工程实践的技术博客。"
+  keywords: [Radar, Vision, Fusion, Blog, Engineering]
+  author: voidpxL
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  images: ["assets/favicon.png"]
+  DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   math : true
@@ -40,30 +49,30 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
-  disableSchema: true
+  disableSchema: false
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "/ssets/favicon.png"
+    favicon: "assets/favicon.png"
     favicon16x16: "assets/favicon.png"
     favicon32x32: "assets/favicon.png"
     apple_touch_icon: "assets/favicon.png"
     safari_pinned_tab: "assets/favicon.png"
 
   label:
-    text: "Home"
+    text: "voidpxL"
     icon: "assets/favicon.png"
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    title: voidpxL
+    subtitle: "雷达 / 视觉 / 融合感知 / 工程实践"
+    imageUrl: "assets/favicon.png"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: voidpxL
     buttons:
       - name: Posts
         url: posts
@@ -72,19 +81,19 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi, welcome to voidpxL's Blog 👋"
+    Title: "欢迎来到 voidpxL 的技术博客"
     Content: >
-      主要涵盖以下几个内容:
+      主要记录以下内容：
 
-      - 1. 算法和工程流程总结
+      1. 算法与工程流程总结
 
-      - 2. 技术学习记录
+      2. 技术学习与实验记录
 
-      - 3. 复现算法模型展示
+      3. 论文阅读、方法拆解与复现
 
   socialIcons:
     - name: github
-      url: "https://github.com/huizhenlai"
+      url: "https://github.com/voidpxl"
     - name: zhihu
       url: "https://www.zhihu.com/"
     - name: qq
@@ -92,22 +101,14 @@ params:
     - name: bilibili
       url: "https://www.bilibili.com"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
-
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/huizhenlai/blog/blob/gh-pages/content"
+    Text: "在 GitHub 上编辑"
     appendFilePath: true # to append file path to Edit link
 
 # for search
@@ -123,22 +124,34 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 5
+    - identifier: series
+      name: 系列
+      url: /series/
+      weight: 8
     - identifier: archive
-      name: Archives
-      url: archives/
+      name: 归档
+      url: /archives/
       weight: 10
     - identifier: Search
-      name: Search
-      url: search/
+      name: 搜索
+      url: /search/
       weight: 20
     - identifier: Tags
-      name: Tags
-      url: /Tags/
+      name: 标签
+      url: /tags/
       weight: 30
     - identifier: Me
-      name: Me
-      url: https://huizhenlai.github.io
+      name: 主页
+      url: https://voidpxl.github.io
       weight: 40
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
