@@ -8,7 +8,7 @@ tags: [Camera]  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
 math: true
-series: ["标定与坐标系"]
+series: ["传感器融合"]
 featured: true
 hideTitle: true
 ---

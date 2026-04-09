@@ -5,10 +5,9 @@ date: 2025-03-25
 draft: false
 weight: 1
 tags: [Camera ,Mmware Radar, Fusion]  # 标签，可以是多个
-categories: ["Paper Read"]  # 分类
 author: "lhz"  # 作者
 math: true
-series: ["雷达与视觉融合"]
+series: ["传感器融合"]
 featured: true
 hideTitle: true
 ---

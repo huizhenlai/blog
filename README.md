@@ -192,6 +192,13 @@ series: ["雷达与视觉融合"]
 
 结论：系列名尽量固定，少而稳。
 
+目前定义以下系列：
+1. 工具与工作流
+2. 传感器融合
+3. 雷达数据处理
+4. AI技术探索
+5. 其他
+
 ### 标签
 
 `tags` 用来打细粒度关键词，例如：
@@ -249,7 +256,7 @@ hugo new content posts/my-new-post/index.md
 
 ## 部署说明
 
-仓库已经带了 GitHub Pages 工作流：[hugo.yaml](/D:/my_web/blog/.github/workflows/hugo.yaml)
+仓库已经带了 GitHub Pages 工作流：[hugo.yaml](/blog/.github/workflows/hugo.yaml)
 
 默认逻辑：
 
@@ -264,17 +271,17 @@ hugo new content posts/my-new-post/index.md
 
 ## 维护时最常改的文件
 
-- [hugo.yaml](/D:/my_web/blog/hugo.yaml): 站点菜单、主题参数、taxonomy、SEO
-- [default.md](/D:/my_web/blog/archetypes/default.md): 新文章模板
-- [single.html](/D:/my_web/blog/layouts/_default/single.html): 单篇文章页覆写
-- [list.html](/D:/my_web/blog/layouts/_default/list.html): 首页和列表页覆写
-- [home_featured.html](/D:/my_web/blog/layouts/partials/home_featured.html): 首页精选模块
-- [blog-custom.css](/D:/my_web/blog/assets/css/extended/blog-custom.css): 博客扩展样式
+- [hugo.yaml](/blog/hugo.yaml): 站点菜单、主题参数、taxonomy、SEO
+- [default.md](/blog/archetypes/default.md): 新文章模板
+- [single.html](/blog/layouts/_default/single.html): 单篇文章页覆写
+- [list.html](/blog/layouts/_default/list.html): 首页和列表页覆写
+- [home_featured.html](/blog/layouts/partials/home_featured.html): 首页精选模块
+- [blog-custom.css](/blog/assets/css/extended/blog-custom.css): 博客扩展样式
 
 ## 备注
 
 站点里已经有一篇示例文章模板：
 
-- [template.md](/D:/my_web/blog/content/posts/template.md)
+- [template.md](/blog/content/posts/template.md)
 
 但真正生成新文章时，优先以 `archetypes/default.md` 为准。

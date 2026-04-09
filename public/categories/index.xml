@@ -2,29 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on voidpxL&#39;s blog</title>
-    <link>https://huizhenlai.github.io/blog/categories/</link>
+    <link>http://localhost:6227/blog/categories/</link>
     <description>Recent content in Categories on voidpxL&#39;s blog</description>
     <image>
       <title>voidpxL&#39;s blog</title>
-      <url>https://huizhenlai.github.io/blog/assets/favicon.png</url>
-      <link>https://huizhenlai.github.io/blog/assets/favicon.png</link>
+      <url>http://localhost:6227/blog/assets/favicon.png</url>
+      <link>http://localhost:6227/blog/assets/favicon.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://huizhenlai.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Apr 2026 13:56:11 +0800</lastBuildDate>
+    <atom:link href="http://localhost:6227/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tutorials</title>
-      <link>https://huizhenlai.github.io/blog/categories/tutorials/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://huizhenlai.github.io/blog/categories/tutorials/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Paper Read</title>
-      <link>https://huizhenlai.github.io/blog/categories/paper-read/</link>
-      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://huizhenlai.github.io/blog/categories/paper-read/</guid>
+      <link>http://localhost:6227/blog/categories/tutorials/</link>
+      <pubDate>Thu, 09 Apr 2026 13:56:11 +0800</pubDate>
+      <guid>http://localhost:6227/blog/categories/tutorials/</guid>
       <description></description>
     </item>
   </channel>

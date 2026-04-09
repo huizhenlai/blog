@@ -1,25 +1,64 @@
 {{- $pages := .pages }}
 {{- if gt (len $pages) 0 }}
-<section class="featured-section">
+{{- $primary := index $pages 0 }}
+{{- $secondary := after 1 $pages }}
+<section class="featured-section" aria-labelledby="featured-section-title">
   <div class="featured-section-header">
-    <h2>精选文章</h2>
-    <p>先看这些内容，能更快判断这个博客的关注点和文章风格。</p>
+    <div>
+      <span class="featured-section-kicker">Featured</span>
+      <h2 id="featured-section-title">精选文章</h2>
+      <p>优先看这些内容，更容易快速判断这个博客的主线、深度和写作风格。</p>
+    </div>
+    <div class="featured-section-count">{{ len $pages }} 篇</div>
   </div>
   <div class="featured-grid">
-    {{- range $pages }}
-    <article class="featured-card">
-      <div class="featured-card-meta">{{ partial "post_meta.html" . }}</div>
-      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-      {{- with (.GetTerms "series") }}
-      <div class="featured-card-series">
+    <article class="featured-card featured-card-primary">
+      <div class="featured-card-topline">
+        <span class="featured-card-badge">优先阅读</span>
+        <div class="featured-card-meta">{{ partial "post_meta.html" $primary }}</div>
+      </div>
+      <h3><a href="{{ $primary.Permalink }}">{{ $primary.Title }}</a></h3>
+      <div class="featured-card-taxonomy">
+        {{- with ($primary.GetTerms "series") }}
         {{- range first 1 . }}
-        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+        <a class="featured-card-chip featured-card-series" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+        {{- end }}
+        {{- end }}
+        {{- with ($primary.GetTerms "tags") }}
+        {{- range first 2 . }}
+        <a class="featured-card-chip featured-card-tag" href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+        {{- end }}
         {{- end }}
       </div>
-      {{- end }}
-      <p>{{ .Summary | plainify | htmlUnescape }}</p>
-      <a class="featured-card-link" href="{{ .Permalink }}">阅读全文</a>
+      <p class="featured-card-summary">{{ $primary.Summary | plainify | htmlUnescape }}</p>
+      <a class="featured-card-link" href="{{ $primary.Permalink }}">阅读全文</a>
     </article>
+    {{- if gt (len $secondary) 0 }}
+    <div class="featured-side">
+      {{- range $index, $page := first 2 $secondary }}
+      <article class="featured-card featured-card-secondary">
+        <div class="featured-card-topline">
+          <span class="featured-card-badge">精选 {{ add $index 2 }}</span>
+          <div class="featured-card-meta">{{ partial "post_meta.html" $page }}</div>
+        </div>
+        <h3><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h3>
+        <div class="featured-card-taxonomy">
+          {{- with ($page.GetTerms "series") }}
+          {{- range first 1 . }}
+          <a class="featured-card-chip featured-card-series" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+          {{- end }}
+          {{- end }}
+          {{- with ($page.GetTerms "tags") }}
+          {{- range first 2 . }}
+          <a class="featured-card-chip featured-card-tag" href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+          {{- end }}
+          {{- end }}
+        </div>
+        <p class="featured-card-summary">{{ $page.Summary | plainify | htmlUnescape }}</p>
+        <a class="featured-card-link" href="{{ $page.Permalink }}">阅读全文</a>
+      </article>
+      {{- end }}
+    </div>
     {{- end }}
   </div>
 </section>

@@ -5,8 +5,8 @@ date: 2025-03-17
 draft: false 
 tags: ["Object Detetion"]  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
+series: ["传感器融合"]
 author: "lhz"  # 作者
-series: ["目标检测工程实践"]
 hideTitle: true
 ---
 
@@ -58,7 +58,6 @@ hideTitle: true
 ```
 
 图片名字与标签名字一一对应，标签使用txt文本保存。
-
 
 
 #### 检测任务

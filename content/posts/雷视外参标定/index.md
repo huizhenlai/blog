@@ -8,7 +8,7 @@ tags: [Camera ,Mmware Radar, Fusion]  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
 math: true
-series: ["雷达与视觉融合"]
+series: ["传感器融合"]
 hideTitle: true
 ---
 

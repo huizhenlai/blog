@@ -47,8 +47,28 @@
 
 {{- $featuredPages := slice }}
 {{- if .IsHome }}
-{{- $featuredPages = where $pages "Params.featured" true }}
-{{- $pages = where $pages "Params.featured" "!=" true }}
+{{- $allFeaturedPages := where $pages "Params.featured" true }}
+{{- $orderedFeatured := newScratch }}
+{{- $orderedFeatured.Set "pages" (slice) }}
+{{- range ((where $allFeaturedPages "Weight" "gt" 0).ByWeight) }}
+{{- $orderedFeatured.Add "pages" (slice .) }}
+{{- end }}
+{{- range ((where $allFeaturedPages "Weight" "eq" 0).ByDate.Reverse) }}
+{{- $orderedFeatured.Add "pages" (slice .) }}
+{{- end }}
+{{- $featuredPages = first 3 ($orderedFeatured.Get "pages") }}
+{{- $featuredPermalinks := slice }}
+{{- range $featuredPages }}
+{{- $featuredPermalinks = $featuredPermalinks | append .RelPermalink }}
+{{- end }}
+{{- $remainingPages := newScratch }}
+{{- $remainingPages.Set "pages" (slice) }}
+{{- range $pages }}
+{{- if not (in $featuredPermalinks .RelPermalink) }}
+{{- $remainingPages.Add "pages" (slice .) }}
+{{- end }}
+{{- end }}
+{{- $pages = $remainingPages.Get "pages" }}
 {{- end }}
 
 {{- $paginator := .Paginate $pages }}

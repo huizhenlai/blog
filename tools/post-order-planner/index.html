@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>文章排序规划器</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Blog Tool</p>
+        <h1>文章排序规划器</h1>
+        <p class="hero-text">拖拽整站文章顺序，一次性批量写回 <code>weight</code>。当前首页精选仍然按 <code>featured: true</code> + 最小 <code>weight</code> 的前三篇工作。</p>
+      </div>
+      <div class="hero-actions">
+        <button id="reload-btn" class="secondary-btn">重新加载</button>
+        <button id="save-btn" class="primary-btn">保存排序</button>
+      </div>
+    </section>
+
+    <section class="toolbar">
+      <label class="search-box">
+        <span>搜索</span>
+        <input id="search-input" type="search" placeholder="按标题、路径、系列过滤">
+      </label>
+      <label class="check-box">
+        <input id="hide-drafts" type="checkbox">
+        <span>隐藏草稿</span>
+      </label>
+      <div class="hint-box">
+        <strong>提示</strong>
+        <span id="drag-hint">拖拽已启用</span>
+      </div>
+    </section>
+
+    <section class="stats-grid">
+      <article class="stat-card">
+        <span class="stat-label">文章总数</span>
+        <strong id="stat-total">0</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-label">精选文章</span>
+        <strong id="stat-featured">0</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-label">草稿数量</span>
+        <strong id="stat-drafts">0</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-label">改动状态</span>
+        <strong id="stat-dirty">未修改</strong>
+      </article>
+    </section>
+
+    <section class="list-shell">
+      <div class="list-header">
+        <div>排序后的权重会从 <code>1</code> 开始连续重写。搜索状态下禁用拖拽，避免你拖乱不可见项。</div>
+        <div id="visible-count">显示 0 篇</div>
+      </div>
+      <ul id="post-list" class="post-list"></ul>
+      <div id="empty-state" class="empty-state" hidden>没有匹配的文章。</div>
+    </section>
+
+    <section class="status-shell">
+      <div id="status-bar" class="status-bar">准备就绪。</div>
+    </section>
+  </main>
+
+  <template id="post-item-template">
+    <li class="post-item" draggable="true">
+      <div class="drag-handle" title="拖拽排序">⋮⋮</div>
+      <div class="post-main">
+        <div class="post-topline">
+          <span class="weight-badge"></span>
+          <span class="featured-badge" hidden>精选</span>
+          <span class="draft-badge" hidden>草稿</span>
+        </div>
+        <h2 class="post-title"></h2>
+        <div class="meta-row">
+          <span class="post-date"></span>
+          <span class="post-series"></span>
+        </div>
+        <div class="post-path"></div>
+      </div>
+    </li>
+  </template>
+
+  <script src="./app.js"></script>
+</body>
+</html>

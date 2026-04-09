@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>雷达感知笔记 on voidpxL&#39;s blog</title>
+    <link>http://localhost:1313/blog/series/%E9%9B%B7%E8%BE%BE%E6%84%9F%E7%9F%A5%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 雷达感知笔记 on voidpxL&#39;s blog</description>
+    <image>
+      <title>voidpxL&#39;s blog</title>
+      <url>http://localhost:1313/blog/assets/favicon.png</url>
+      <link>http://localhost:1313/blog/assets/favicon.png</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh-cn</language>
+    <atom:link href="http://localhost:1313/blog/series/%E9%9B%B7%E8%BE%BE%E6%84%9F%E7%9F%A5%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

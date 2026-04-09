@@ -5,10 +5,9 @@ date: 2025-04-10
 draft: false
 weight: 2
 tags: [Camera]  # 标签，可以是多个
-categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
 math: true
-series: ["目标检测工程实践"]
+series: ["传感器融合"]
 featured: true
 hideTitle: true
 ---

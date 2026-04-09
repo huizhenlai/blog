@@ -2,71 +2,92 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>voidpxL&#39;s blog</title>
-    <link>https://huizhenlai.github.io/blog/</link>
+    <link>http://localhost:6227/blog/</link>
     <description>Recent content on voidpxL&#39;s blog</description>
     <image>
       <title>voidpxL&#39;s blog</title>
-      <url>https://huizhenlai.github.io/blog/assets/favicon.png</url>
-      <link>https://huizhenlai.github.io/blog/assets/favicon.png</link>
+      <url>http://localhost:6227/blog/assets/favicon.png</url>
+      <link>http://localhost:6227/blog/assets/favicon.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://huizhenlai.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Apr 2026 13:56:11 +0800</lastBuildDate>
+    <atom:link href="http://localhost:6227/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3D detection by RC fusion</title>
-      <link>https://huizhenlai.github.io/blog/posts/3d-detection-by-rc-fusion/</link>
+      <link>http://localhost:6227/blog/posts/3d-detection-by-rc-fusion/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://huizhenlai.github.io/blog/posts/3d-detection-by-rc-fusion/</guid>
+      <guid>http://localhost:6227/blog/posts/3d-detection-by-rc-fusion/</guid>
       <description>A survey about 3D detction.</description>
     </item>
     <item>
       <title>基于YOLO11微调BDD100K的目标检测任务</title>
-      <link>https://huizhenlai.github.io/blog/posts/%E5%9F%BA%E4%BA%8Eyolo11%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%BB%BB%E5%8A%A1/</link>
+      <link>http://localhost:6227/blog/posts/%E5%9F%BA%E4%BA%8Eyolo11%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%BB%BB%E5%8A%A1/</link>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://huizhenlai.github.io/blog/posts/%E5%9F%BA%E4%BA%8Eyolo11%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%BB%BB%E5%8A%A1/</guid>
+      <guid>http://localhost:6227/blog/posts/%E5%9F%BA%E4%BA%8Eyolo11%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%BB%BB%E5%8A%A1/</guid>
       <description>Ultralytics实现的YOLO11版本，在车载任务上模型略有不足，在BDD100K数据集上进行微调，以实现恶劣天气、光照条件下的目标检测，还加入了yolov5的版本。</description>
     </item>
     <item>
       <title>单目测距测速方法</title>
-      <link>https://huizhenlai.github.io/blog/posts/%E8%A7%86%E8%A7%89%E5%8D%95%E7%9B%AE%E6%B5%8B%E8%B7%9D%E6%B5%8B%E9%80%9F%E6%96%B9%E6%B3%95/</link>
+      <link>http://localhost:6227/blog/posts/%E8%A7%86%E8%A7%89%E5%8D%95%E7%9B%AE%E6%B5%8B%E8%B7%9D%E6%B5%8B%E9%80%9F%E6%96%B9%E6%B3%95/</link>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://huizhenlai.github.io/blog/posts/%E8%A7%86%E8%A7%89%E5%8D%95%E7%9B%AE%E6%B5%8B%E8%B7%9D%E6%B5%8B%E9%80%9F%E6%96%B9%E6%B3%95/</guid>
+      <guid>http://localhost:6227/blog/posts/%E8%A7%86%E8%A7%89%E5%8D%95%E7%9B%AE%E6%B5%8B%E8%B7%9D%E6%B5%8B%E9%80%9F%E6%96%B9%E6%B3%95/</guid>
       <description>基于单目摄像头的测距测速方法探索和总结，先专注于传统方法，不去做深度学习</description>
     </item>
     <item>
       <title>摄像头标定方法</title>
-      <link>https://huizhenlai.github.io/blog/posts/%E8%A7%86%E8%A7%89%E6%A0%87%E5%AE%9A%E6%96%B9%E6%B3%95/</link>
+      <link>http://localhost:6227/blog/posts/%E8%A7%86%E8%A7%89%E6%A0%87%E5%AE%9A%E6%96%B9%E6%B3%95/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://huizhenlai.github.io/blog/posts/%E8%A7%86%E8%A7%89%E6%A0%87%E5%AE%9A%E6%96%B9%E6%B3%95/</guid>
+      <guid>http://localhost:6227/blog/posts/%E8%A7%86%E8%A7%89%E6%A0%87%E5%AE%9A%E6%96%B9%E6%B3%95/</guid>
       <description>描述了内参和畸变的相关原理，并提供方案进行内参处理和畸变校准。</description>
     </item>
     <item>
       <title>雷视外参标定方法</title>
-      <link>https://huizhenlai.github.io/blog/posts/%E9%9B%B7%E8%A7%86%E5%A4%96%E5%8F%82%E6%A0%87%E5%AE%9A/</link>
+      <link>http://localhost:6227/blog/posts/%E9%9B%B7%E8%A7%86%E5%A4%96%E5%8F%82%E6%A0%87%E5%AE%9A/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://huizhenlai.github.io/blog/posts/%E9%9B%B7%E8%A7%86%E5%A4%96%E5%8F%82%E6%A0%87%E5%AE%9A/</guid>
+      <guid>http://localhost:6227/blog/posts/%E9%9B%B7%E8%A7%86%E5%A4%96%E5%8F%82%E6%A0%87%E5%AE%9A/</guid>
       <description>定义雷达和摄像头的参考系，并进行坐标转换。</description>
     </item>
     <item>
+      <title>写作模板</title>
+      <link>http://localhost:6227/blog/posts/template/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:6227/blog/posts/template/</guid>
+      <description>用于技术博客写作的最小模板。</description>
+    </item>
+    <item>
+      <title>使用 AI 完善博客系统，让它能写文档也能绘图</title>
+      <link>http://localhost:6227/blog/posts/ai-blog-system/</link>
+      <pubDate>Thu, 09 Apr 2026 13:56:11 +0800</pubDate>
+      <guid>http://localhost:6227/blog/posts/ai-blog-system/</guid>
+      <description>结合 Hugo 博客与 AI 工作流，梳理一套可持续的写稿、配图、校验与发布方案。</description>
+    </item>
+    <item>
       <title>我是怎么搭建自己的个人网站的</title>
-      <link>https://huizhenlai.github.io/blog/posts/%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84/</link>
+      <link>http://localhost:6227/blog/posts/%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://huizhenlai.github.io/blog/posts/%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84/</guid>
+      <guid>http://localhost:6227/blog/posts/%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84/</guid>
       <description>目前对前端完全不懂, 基于开源资料和ChatGPT进行搭建, 效果基本也能够令我满意</description>
     </item>
     <item>
       <title>Object detection data format</title>
-      <link>https://huizhenlai.github.io/blog/posts/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E7%9B%B8%E5%85%B3%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/</link>
+      <link>http://localhost:6227/blog/posts/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E7%9B%B8%E5%85%B3%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/</link>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://huizhenlai.github.io/blog/posts/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E7%9B%B8%E5%85%B3%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/</guid>
+      <guid>http://localhost:6227/blog/posts/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E7%9B%B8%E5%85%B3%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/</guid>
       <description>Describe the object detection data fomrat such as YOLO, COCO and VOC</description>
     </item>
     <item>
-      <title>关于</title>
-      <link>https://huizhenlai.github.io/blog/about/</link>
+      <title></title>
+      <link>http://localhost:6227/blog/posts/%E7%AE%97%E6%B3%95%E6%8B%9B%E8%81%98%E6%9C%89%E6%84%9F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://huizhenlai.github.io/blog/about/</guid>
+      <guid>http://localhost:6227/blog/posts/%E7%AE%97%E6%B3%95%E6%8B%9B%E8%81%98%E6%9C%89%E6%84%9F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>关于</title>
+      <link>http://localhost:6227/blog/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:6227/blog/about/</guid>
       <description>关于这个博客，以及我为什么写这些内容。</description>
     </item>
   </channel>

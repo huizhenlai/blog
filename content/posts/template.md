@@ -2,11 +2,11 @@
 title: "写作模板"
 summary: "用于技术博客写作的最小模板。"
 date: 2025-03-17
-draft: true
+draft: false
 weight: 6
 tags: []
 categories: ["Tutorials"]
-series: []
+series: ["工具与工作流"]
 author: "lhz"
 math: false
 featured: false

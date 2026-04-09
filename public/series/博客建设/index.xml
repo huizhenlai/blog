@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>博客建设 on voidpxL&#39;s blog</title>
-    <link>https://huizhenlai.github.io/blog/series/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/</link>
+    <link>http://localhost:6227/blog/series/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/</link>
     <description>Recent content in 博客建设 on voidpxL&#39;s blog</description>
     <image>
       <title>voidpxL&#39;s blog</title>
-      <url>https://huizhenlai.github.io/blog/assets/favicon.png</url>
-      <link>https://huizhenlai.github.io/blog/assets/favicon.png</link>
+      <url>http://localhost:6227/blog/assets/favicon.png</url>
+      <link>http://localhost:6227/blog/assets/favicon.png</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://huizhenlai.github.io/blog/series/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:6227/blog/series/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我是怎么搭建自己的个人网站的</title>
-      <link>https://huizhenlai.github.io/blog/posts/%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84/</link>
+      <link>http://localhost:6227/blog/posts/%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://huizhenlai.github.io/blog/posts/%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84/</guid>
+      <guid>http://localhost:6227/blog/posts/%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84/</guid>
       <description>目前对前端完全不懂, 基于开源资料和ChatGPT进行搭建, 效果基本也能够令我满意</description>
     </item>
   </channel>
