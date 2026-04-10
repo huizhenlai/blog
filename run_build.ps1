@@ -1,3 +1,3 @@
 $ErrorActionPreference = "Stop"
 $cacheDir = Join-Path $PSScriptRoot ".hugo_cache"
-hugo --gc --minify --cacheDir "$cacheDir"
+hugo --gc --minify --cleanDestinationDir --cacheDir "$cacheDir"

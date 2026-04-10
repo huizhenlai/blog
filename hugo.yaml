@@ -29,7 +29,7 @@ params:
   keywords: [Radar, Vision, Fusion, Blog, Engineering]
   author: voidpxL
   # author: ["Me", "You"] # multiple authors
-  images: ["assets/favicon.png"]
+  images: ["assets/icons/voidpxl-mark.svg"]
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -53,15 +53,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "assets/favicon.png"
-    favicon16x16: "assets/favicon.png"
-    favicon32x32: "assets/favicon.png"
-    apple_touch_icon: "assets/favicon.png"
-    safari_pinned_tab: "assets/favicon.png"
+    favicon: "assets/icons/voidpxl-mark.svg"
+    favicon16x16: "assets/icons/voidpxl-mark.svg"
+    favicon32x32: "assets/icons/voidpxl-mark.svg"
+    apple_touch_icon: "assets/icons/voidpxl-mark.svg"
+    safari_pinned_tab: "assets/icons/voidpxl-mark.svg"
 
   label:
     text: "voidpxL"
-    icon: "assets/favicon.png"
+    icon: "assets/icons/voidpxl-mark.svg"
     iconHeight: 35
 
   # profile-mode
@@ -69,7 +69,7 @@ params:
     enabled: false # needs to be explicitly set
     title: voidpxL
     subtitle: "雷达 / 视觉 / 融合感知 / 工程实践"
-    imageUrl: "assets/favicon.png"
+    imageUrl: "assets/icons/voidpxl-mark.svg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: voidpxL

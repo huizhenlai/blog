@@ -31,7 +31,6 @@ hideTitle: true
 5. [Charles R. Qi](https://charlesrqi.com/) 的工作
 
 
-
 |          Methods          |                       works                       |
 | :-----------------------: | :-----------------------------------------------: |
 |       Image -Driven       | Monocular view detectors, Frustum-based detectors |

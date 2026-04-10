@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">voidpxL mark</title>
+  <desc id="desc">A low-key hacker-style circular mark with a broken pixel L and subtle violet edge glow.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="62%">
+      <stop offset="0" stop-color="#171a20"/>
+      <stop offset="0.58" stop-color="#0b0d12"/>
+      <stop offset="1" stop-color="#050609"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="120" y1="72" x2="408" y2="432" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2a2f39"/>
+      <stop offset="0.64" stop-color="#151820"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="170" y1="128" x2="362" y2="372" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4f7ff"/>
+      <stop offset="0.52" stop-color="#cfd6e6"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="230" y1="120" x2="370" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d7ccff"/>
+      <stop offset="0.55" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#4c1d95"/>
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.46 0 0 0 0 0.22 0 0 0 0 1 0 0 0 0.75 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <mask id="pixelBreaks" x="0" y="0" width="512" height="512" maskUnits="userSpaceOnUse">
+      <rect width="512" height="512" fill="#fff"/>
+      <rect x="212" y="166" width="30" height="30" fill="#000"/>
+      <rect x="242" y="304" width="38" height="30" fill="#000"/>
+      <rect x="308" y="346" width="32" height="29" fill="#000"/>
+      <rect x="174" y="374" width="26" height="22" fill="#000"/>
+    </mask>
+  </defs>
+
+  <rect width="512" height="512" fill="#050609"/>
+  <circle cx="256" cy="256" r="238" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="238" fill="none" stroke="url(#rim)" stroke-width="12"/>
+  <path d="M104 105A238 238 0 0 1 408 407" fill="none" stroke="#8b5cf6" stroke-linecap="round" stroke-width="5" opacity="0.28" filter="url(#softGlow)"/>
+
+  <g filter="url(#softGlow)" opacity="0.42">
+    <path d="M243 130h18v172h105" fill="none" stroke="url(#accent)" stroke-linecap="square" stroke-linejoin="miter" stroke-width="10"/>
+    <rect x="360" y="304" width="20" height="20" fill="#8b5cf6" opacity="0.75"/>
+  </g>
+
+  <path
+    d="M174 130h68v174h122v51l-20 20H174V130Z"
+    fill="url(#edge)"
+    mask="url(#pixelBreaks)"/>
+
+  <path
+    d="M242 130h18v174h104v20H242V130Z"
+    fill="#ffffff"
+    opacity="0.09"/>
+
+  <g fill="#8b5cf6">
+    <rect x="214" y="168" width="26" height="26" opacity="0.82"/>
+    <rect x="244" y="306" width="34" height="26" opacity="0.74"/>
+    <rect x="310" y="348" width="28" height="25" opacity="0.68"/>
+  </g>
+
+  <g fill="#b7a3ff" opacity="0.38">
+    <rect x="136" y="219" width="10" height="10"/>
+    <rect x="378" y="270" width="8" height="8"/>
+    <rect x="320" y="142" width="7" height="7"/>
+  </g>
+</svg>
