@@ -3,6 +3,7 @@ title: "Object detection data format"
 summary: Describe the object detection data fomrat such as YOLO, COCO and VOC
 date: 2025-03-17
 draft: false 
+weight: 10
 tags: ["Object Detetion"]  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
 series: ["传感器融合"]

@@ -3,6 +3,7 @@ title: "使用 AI 完善博客系统，让它能写文档也能绘图"
 summary: "结合 Hugo 博客与 AI 工作流，梳理一套可持续的写稿、配图、校验与发布方案。"
 date: 2026-04-09T13:56:11+08:00
 draft: true
+weight: 2
 tags: ["AI", "Hugo", "Workflow"]
 categories: ["Tutorials"]
 series: ["工具与工作流"]

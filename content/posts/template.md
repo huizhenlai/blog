@@ -3,7 +3,7 @@ title: "写作模板"
 summary: "用于技术博客写作的最小模板。"
 date: 2025-03-17
 draft: false
-weight: 6
+weight: 8
 tags: []
 categories: ["Tutorials"]
 series: ["工具与工作流"]

@@ -3,7 +3,7 @@ title: "3D detection by RC fusion"
 summary: A survey about 3D detction.
 date: 2025-03-25
 draft: false
-weight: 1
+weight: 5
 tags: [Camera ,Mmware Radar, Fusion]  # 标签，可以是多个
 author: "lhz"  # 作者
 math: true
@@ -19,8 +19,6 @@ hideTitle: true
 其中主要的难题在于，雷达的点云过于稀疏，雷达和摄像头的位置较准，和边缘计算部署的算力压力。
 
 主要的数据集还是nuScenes
-
-
 
 几篇综述：
 

@@ -3,13 +3,13 @@ title: "摄像头标定方法"
 summary: 描述了内参和畸变的相关原理，并提供方案进行内参处理和畸变校准。
 date: 2025-03-25
 draft: false 
-weight: 2
+weight: 6
 tags: [Camera]  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
 math: true
 series: ["传感器融合"]
-featured: true
+featured: false
 hideTitle: true
 ---
 

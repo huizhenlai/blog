@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>文章排序规划器</title>
+  <title>文章排序与 Taxonomy 规划器</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <main class="app-shell">
     <section class="hero">
       <div>
-        <p class="eyebrow">Blog Tool</p>
-        <h1>文章排序规划器</h1>
-        <p class="hero-text">拖拽整站文章顺序，一次性批量写回 <code>weight</code>。当前首页精选仍然按 <code>featured: true</code> + 最小 <code>weight</code> 的前三篇工作。</p>
+        <p class="eyebrow">Blog Planner</p>
+        <h1>文章排序与 Taxonomy 规划器</h1>
+        <p class="hero-text">统计当前已有的 <code>tags</code> 和 <code>series</code>，展示所有文章及其 <code>weight</code>，支持拖拽调整顺序并批量写回 front matter。</p>
       </div>
       <div class="hero-actions">
         <button id="reload-btn" class="secondary-btn">重新加载</button>
@@ -22,41 +22,68 @@
 
     <section class="toolbar">
       <label class="search-box">
-        <span>搜索</span>
-        <input id="search-input" type="search" placeholder="按标题、路径、系列过滤">
+        <span>搜索文章</span>
+        <input id="search-input" type="search" placeholder="按标题、路径、tag、series 过滤">
       </label>
       <label class="check-box">
         <input id="hide-drafts" type="checkbox">
         <span>隐藏草稿</span>
       </label>
       <div class="hint-box">
-        <strong>提示</strong>
-        <span id="drag-hint">拖拽已启用</span>
+        <strong>拖拽状态</strong>
+        <span id="drag-hint">已启用</span>
       </div>
     </section>
 
-    <section class="stats-grid">
-      <article class="stat-card">
-        <span class="stat-label">文章总数</span>
-        <strong id="stat-total">0</strong>
-      </article>
-      <article class="stat-card">
-        <span class="stat-label">精选文章</span>
-        <strong id="stat-featured">0</strong>
-      </article>
-      <article class="stat-card">
-        <span class="stat-label">草稿数量</span>
-        <strong id="stat-drafts">0</strong>
-      </article>
-      <article class="stat-card">
-        <span class="stat-label">改动状态</span>
-        <strong id="stat-dirty">未修改</strong>
-      </article>
+    <section class="top-grid">
+      <section class="stats-grid">
+        <article class="stat-card">
+          <span class="stat-label">文章总数</span>
+          <strong id="stat-total-posts">0</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">精选文章</span>
+          <strong id="stat-featured-posts">0</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">草稿数量</span>
+          <strong id="stat-draft-posts">0</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">标签总数</span>
+          <strong id="stat-total-tags">0</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">系列总数</span>
+          <strong id="stat-total-series">0</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">修改状态</span>
+          <strong id="stat-dirty">未修改</strong>
+        </article>
+      </section>
+
+      <section class="taxonomy-grid">
+        <article class="taxonomy-card">
+          <div class="taxonomy-card-head">
+            <h2>Tags</h2>
+            <span id="tag-count-pill" class="count-pill">0</span>
+          </div>
+          <div id="tag-cloud" class="taxonomy-cloud"></div>
+        </article>
+        <article class="taxonomy-card">
+          <div class="taxonomy-card-head">
+            <h2>Series</h2>
+            <span id="series-count-pill" class="count-pill">0</span>
+          </div>
+          <div id="series-cloud" class="taxonomy-cloud"></div>
+        </article>
+      </section>
     </section>
 
     <section class="list-shell">
       <div class="list-header">
-        <div>排序后的权重会从 <code>1</code> 开始连续重写。搜索状态下禁用拖拽，避免你拖乱不可见项。</div>
+        <div>保存时会把当前顺序连续写回为 <code>weight: 1..N</code>。搜索或隐藏草稿时禁用拖拽，避免不可见项被错误排序。</div>
         <div id="visible-count">显示 0 篇</div>
       </div>
       <ul id="post-list" class="post-list"></ul>
@@ -82,6 +109,7 @@
           <span class="post-date"></span>
           <span class="post-series"></span>
         </div>
+        <div class="tag-row"></div>
         <div class="post-path"></div>
       </div>
     </li>

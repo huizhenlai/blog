@@ -14,18 +14,18 @@
     <lastBuildDate>Thu, 09 Apr 2026 13:56:11 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/series/%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>写作模板</title>
-      <link>http://localhost:1313/blog/posts/template/</link>
-      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/template/</guid>
-      <description>用于技术博客写作的最小模板。</description>
-    </item>
-    <item>
       <title>使用 AI 完善博客系统，让它能写文档也能绘图</title>
       <link>http://localhost:1313/blog/posts/ai-blog-system/</link>
       <pubDate>Thu, 09 Apr 2026 13:56:11 +0800</pubDate>
       <guid>http://localhost:1313/blog/posts/ai-blog-system/</guid>
       <description>结合 Hugo 博客与 AI 工作流，梳理一套可持续的写稿、配图、校验与发布方案。</description>
+    </item>
+    <item>
+      <title>写作模板</title>
+      <link>http://localhost:1313/blog/posts/template/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/template/</guid>
+      <description>用于技术博客写作的最小模板。</description>
     </item>
     <item>
       <title>我是怎么搭建自己的个人网站的</title>

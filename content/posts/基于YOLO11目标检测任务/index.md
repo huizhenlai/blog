@@ -3,12 +3,12 @@ title: "基于YOLO11微调BDD100K的目标检测任务"
 summary: Ultralytics实现的YOLO11版本，在车载任务上模型略有不足，在BDD100K数据集上进行微调，以实现恶劣天气、光照条件下的目标检测，还加入了yolov5的版本。
 date: 2025-04-10
 draft: false
-weight: 2
+weight: 3
 tags: [Camera]  # 标签，可以是多个
 author: "lhz"  # 作者
 math: true
 series: ["传感器融合"]
-featured: true
+featured: false
 hideTitle: true
 ---
 

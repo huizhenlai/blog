@@ -1,6 +1,16 @@
 const state = {
   posts: [],
-  initialOrder: [],
+  taxonomies: {
+    tags: [],
+    series: [],
+  },
+  stats: {
+    totalPosts: 0,
+    totalFeatured: 0,
+    totalDrafts: 0,
+    tagCount: 0,
+    seriesCount: 0,
+  },
   dragId: null,
   dirty: false,
 };
@@ -12,14 +22,20 @@ const elements = {
   hideDrafts: document.getElementById("hide-drafts"),
   reload: document.getElementById("reload-btn"),
   save: document.getElementById("save-btn"),
-  total: document.getElementById("stat-total"),
-  featured: document.getElementById("stat-featured"),
-  drafts: document.getElementById("stat-drafts"),
-  dirty: document.getElementById("stat-dirty"),
-  status: document.getElementById("status-bar"),
   visibleCount: document.getElementById("visible-count"),
-  dragHint: document.getElementById("drag-hint"),
   empty: document.getElementById("empty-state"),
+  dragHint: document.getElementById("drag-hint"),
+  status: document.getElementById("status-bar"),
+  dirty: document.getElementById("stat-dirty"),
+  totalPosts: document.getElementById("stat-total-posts"),
+  featuredPosts: document.getElementById("stat-featured-posts"),
+  draftPosts: document.getElementById("stat-draft-posts"),
+  totalTags: document.getElementById("stat-total-tags"),
+  totalSeries: document.getElementById("stat-total-series"),
+  tagCloud: document.getElementById("tag-cloud"),
+  seriesCloud: document.getElementById("series-cloud"),
+  tagCountPill: document.getElementById("tag-count-pill"),
+  seriesCountPill: document.getElementById("series-count-pill"),
 };
 
 function setStatus(message, type = "") {
@@ -27,17 +43,21 @@ function setStatus(message, type = "") {
   elements.status.className = `status-bar ${type}`.trim();
 }
 
+function markDirty(value) {
+  state.dirty = value;
+  elements.dirty.textContent = value ? "待保存" : "未修改";
+}
+
 function isFiltering() {
   return Boolean(elements.search.value.trim()) || elements.hideDrafts.checked;
 }
 
-function markDirty(nextValue) {
-  state.dirty = nextValue;
-  elements.dirty.textContent = nextValue ? "待保存" : "未修改";
+function getSearchKeyword() {
+  return elements.search.value.trim().toLowerCase();
 }
 
 function getVisiblePosts() {
-  const keyword = elements.search.value.trim().toLowerCase();
+  const keyword = getSearchKeyword();
   const hideDrafts = elements.hideDrafts.checked;
 
   return state.posts.filter((post) => {
@@ -62,12 +82,47 @@ function getVisiblePosts() {
   });
 }
 
+function renderTaxonomyCloud(container, items, prefix = "") {
+  container.innerHTML = "";
+
+  items.forEach((item) => {
+    const chip = document.createElement("button");
+    chip.type = "button";
+    chip.className = "taxonomy-chip";
+    chip.innerHTML = `<span>${prefix}${item.name}</span><strong>${item.count}</strong>`;
+    chip.addEventListener("click", () => {
+      elements.search.value = item.name;
+      render();
+    });
+    container.appendChild(chip);
+  });
+}
+
 function updateStats() {
-  elements.total.textContent = String(state.posts.length);
-  elements.featured.textContent = String(state.posts.filter((post) => post.featured).length);
-  elements.drafts.textContent = String(state.posts.filter((post) => post.draft).length);
+  elements.totalPosts.textContent = String(state.stats.totalPosts);
+  elements.featuredPosts.textContent = String(state.stats.totalFeatured);
+  elements.draftPosts.textContent = String(state.stats.totalDrafts);
+  elements.totalTags.textContent = String(state.stats.tagCount);
+  elements.totalSeries.textContent = String(state.stats.seriesCount);
+  elements.tagCountPill.textContent = String(state.taxonomies.tags.length);
+  elements.seriesCountPill.textContent = String(state.taxonomies.series.length);
   elements.visibleCount.textContent = `显示 ${getVisiblePosts().length} 篇`;
-  elements.dragHint.textContent = isFiltering() ? "搜索状态下禁用拖拽" : "拖拽已启用";
+  elements.dragHint.textContent = isFiltering() ? "已禁用" : "已启用";
+}
+
+function renderTags(container, tags) {
+  container.innerHTML = "";
+  if (!tags || tags.length === 0) {
+    container.textContent = "无 tags";
+    return;
+  }
+
+  tags.slice(0, 4).forEach((tag) => {
+    const chip = document.createElement("span");
+    chip.className = "inline-chip";
+    chip.textContent = `#${tag}`;
+    container.appendChild(chip);
+  });
 }
 
 function render() {
@@ -88,14 +143,12 @@ function render() {
     fragment.querySelector(".weight-badge").textContent = `weight ${weight}`;
     fragment.querySelector(".post-title").textContent = post.title;
     fragment.querySelector(".post-date").textContent = post.date || "无日期";
-    fragment.querySelector(".post-series").textContent = (post.series || []).slice(0, 2).join(" / ") || "无系列";
+    fragment.querySelector(".post-series").textContent = (post.series || []).join(" / ") || "无 series";
     fragment.querySelector(".post-path").textContent = post.path;
 
-    const featuredBadge = fragment.querySelector(".featured-badge");
-    featuredBadge.hidden = !post.featured;
-
-    const draftBadge = fragment.querySelector(".draft-badge");
-    draftBadge.hidden = !post.draft;
+    fragment.querySelector(".featured-badge").hidden = !post.featured;
+    fragment.querySelector(".draft-badge").hidden = !post.draft;
+    renderTags(fragment.querySelector(".tag-row"), post.tags);
 
     item.addEventListener("dragstart", () => {
       state.dragId = post.id;
@@ -104,8 +157,7 @@ function render() {
 
     item.addEventListener("dragend", () => {
       state.dragId = null;
-      item.classList.remove("dragging");
-      item.classList.remove("drag-over");
+      item.classList.remove("dragging", "drag-over");
     });
 
     item.addEventListener("dragover", (event) => {
@@ -149,33 +201,41 @@ function movePost(fromId, toId) {
   const [moved] = state.posts.splice(fromIndex, 1);
   state.posts.splice(toIndex, 0, moved);
   markDirty(true);
-  setStatus(`已调整排序：${moved.title}`, "");
+  setStatus(`已调整排序: ${moved.title}`);
   render();
 }
 
-async function loadPosts() {
-  setStatus("正在加载文章列表...");
-  const response = await fetch("./api/posts");
+function applySummary(summary) {
+  state.posts = summary.posts || [];
+  state.taxonomies = summary.taxonomies || { tags: [], series: [] };
+  state.stats = summary.stats || state.stats;
+  markDirty(false);
+  renderTaxonomyCloud(elements.tagCloud, state.taxonomies.tags, "#");
+  renderTaxonomyCloud(elements.seriesCloud, state.taxonomies.series);
+  render();
+}
+
+async function loadSummary() {
+  setStatus("正在加载文章与 taxonomy 数据...");
+  const response = await fetch("./api/summary");
+  const data = await response.json();
+
   if (!response.ok) {
-    throw new Error("加载文章列表失败。");
+    throw new Error(data.error || "加载失败。");
   }
 
-  const data = await response.json();
-  state.posts = data.posts || [];
-  state.initialOrder = state.posts.map((post) => post.id);
-  markDirty(false);
-  setStatus("文章列表已加载。", "success");
-  render();
+  applySummary(data);
+  setStatus("已加载当前文章、tags 和 series。", "success");
 }
 
-async function savePosts() {
+async function saveOrder() {
   if (!state.dirty) {
-    setStatus("当前没有需要保存的改动。");
+    setStatus("当前没有需要保存的排序改动。");
     return;
   }
 
   elements.save.disabled = true;
-  setStatus("正在保存排序...");
+  setStatus("正在写回 weight ...");
 
   try {
     const response = await fetch("./api/reorder", {
@@ -193,11 +253,8 @@ async function savePosts() {
       throw new Error(data.error || "保存失败。");
     }
 
-    state.posts = data.posts || state.posts;
-    state.initialOrder = state.posts.map((post) => post.id);
-    markDirty(false);
+    applySummary(data.summary);
     setStatus(`保存完成，已写回 ${data.changed} 个文件。`, "success");
-    render();
   } catch (error) {
     setStatus(error.message, "error");
   } finally {
@@ -205,24 +262,13 @@ async function savePosts() {
   }
 }
 
-elements.search.addEventListener("input", () => {
-  render();
+elements.search.addEventListener("input", render);
+elements.hideDrafts.addEventListener("change", render);
+elements.reload.addEventListener("click", () => {
+  loadSummary().catch((error) => setStatus(error.message, "error"));
 });
-
-elements.hideDrafts.addEventListener("change", () => {
-  render();
-});
-
-elements.reload.addEventListener("click", async () => {
-  try {
-    await loadPosts();
-  } catch (error) {
-    setStatus(error.message, "error");
-  }
-});
-
-elements.save.addEventListener("click", async () => {
-  await savePosts();
+elements.save.addEventListener("click", () => {
+  saveOrder().catch((error) => setStatus(error.message, "error"));
 });
 
 window.addEventListener("beforeunload", (event) => {
@@ -233,6 +279,4 @@ window.addEventListener("beforeunload", (event) => {
   event.returnValue = "";
 });
 
-loadPosts().catch((error) => {
-  setStatus(error.message, "error");
-});
+loadSummary().catch((error) => setStatus(error.message, "error"));

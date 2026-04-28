@@ -3,6 +3,7 @@ title: "我是怎么搭建自己的个人网站的"
 summary: "目前对前端完全不懂, 基于开源资料和ChatGPT进行搭建, 效果基本也能够令我满意"
 date: 2025-03-25
 draft: false 
+weight: 9
 tags: [Hugo]  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者

@@ -3,7 +3,7 @@ title: "雷视外参标定方法"
 summary: 定义雷达和摄像头的参考系，并进行坐标转换。
 date: 2025-03-25
 draft: false
-weight: 3
+weight: 7
 tags: [Camera ,Mmware Radar, Fusion]  # 标签，可以是多个
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
@@ -23,14 +23,11 @@ hideTitle: true
 * $z$ 轴: 竖直方向 (上下)
 
 
-
 ## 摄像头坐标系
 
 * $x$ 轴: 垂直于摄像头方向 (横向左右)
 * $y$ 轴: 竖直方向, 以下为正
 * $z$ 轴: 前后, 以前为正
-
-
 
 ## 坐标转换
 

@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 09 Apr 2026 13:56:11 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Camera</title>
+      <link>http://localhost:1313/blog/tags/camera/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/camera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fusion</title>
+      <link>http://localhost:1313/blog/tags/fusion/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/fusion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mmware Radar</title>
+      <link>http://localhost:1313/blog/tags/mmware-radar/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/mmware-radar/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>http://localhost:1313/blog/tags/ai/</link>
@@ -32,27 +53,6 @@
       <link>http://localhost:1313/blog/tags/workflow/</link>
       <pubDate>Thu, 09 Apr 2026 13:56:11 +0800</pubDate>
       <guid>http://localhost:1313/blog/tags/workflow/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Camera</title>
-      <link>http://localhost:1313/blog/tags/camera/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/camera/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fusion</title>
-      <link>http://localhost:1313/blog/tags/fusion/</link>
-      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/fusion/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mmware Radar</title>
-      <link>http://localhost:1313/blog/tags/mmware-radar/</link>
-      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/tags/mmware-radar/</guid>
       <description></description>
     </item>
     <item>

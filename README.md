@@ -68,11 +68,17 @@ http://localhost:1313/blog/
 powershell -NoProfile -ExecutionPolicy Bypass -File .\run_build.ps1
 ```
 
-构建结果输出到：
+## 可视化管理工具
 
-```text
-public/
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\post-order-planner\run_post_order_planner.ps1
 ```
+
+打开：
+
+http://127.0.0.1:8756/
+
+
 
 ## 新写文章
 
