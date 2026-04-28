@@ -30,7 +30,7 @@ params:
   author: voidpxL
   # author: ["Me", "You"] # multiple authors
   images: ["assets/icons/voidpxl-mark.svg"]
-  DateFormat: "2025-01-02"
+  DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   math : true

@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>文章系列 on voidpxL&#39;s blog</title>
-    <link>http://localhost:1313/blog/series/</link>
+    <link>http://localhost:10056/blog/series/</link>
     <description>Recent content in 文章系列 on voidpxL&#39;s blog</description>
     <image>
       <title>voidpxL&#39;s blog</title>
-      <url>http://localhost:1313/blog/assets/icons/voidpxl-mark.svg</url>
-      <link>http://localhost:1313/blog/assets/icons/voidpxl-mark.svg</link>
+      <url>http://localhost:10056/blog/assets/icons/voidpxl-mark.svg</url>
+      <link>http://localhost:10056/blog/assets/icons/voidpxl-mark.svg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:10056/blog/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>工具与工作流</title>
-      <link>http://localhost:1313/blog/series/%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
+      <link>http://localhost:10056/blog/series/%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
       <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/series/%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/</guid>
+      <guid>http://localhost:10056/blog/series/%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/</guid>
       <description></description>
     </item>
     <item>
       <title>传感器融合</title>
-      <link>http://localhost:1313/blog/series/%E4%BC%A0%E6%84%9F%E5%99%A8%E8%9E%8D%E5%90%88/</link>
+      <link>http://localhost:10056/blog/series/%E4%BC%A0%E6%84%9F%E5%99%A8%E8%9E%8D%E5%90%88/</link>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/series/%E4%BC%A0%E6%84%9F%E5%99%A8%E8%9E%8D%E5%90%88/</guid>
+      <guid>http://localhost:10056/blog/series/%E4%BC%A0%E6%84%9F%E5%99%A8%E8%9E%8D%E5%90%88/</guid>
       <description></description>
     </item>
   </channel>

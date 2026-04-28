@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on voidpxL&#39;s blog</title>
-    <link>http://localhost:1313/blog/categories/</link>
+    <link>http://localhost:10056/blog/categories/</link>
     <description>Recent content in Categories on voidpxL&#39;s blog</description>
     <image>
       <title>voidpxL&#39;s blog</title>
-      <url>http://localhost:1313/blog/assets/icons/voidpxl-mark.svg</url>
-      <link>http://localhost:1313/blog/assets/icons/voidpxl-mark.svg</link>
+      <url>http://localhost:10056/blog/assets/icons/voidpxl-mark.svg</url>
+      <link>http://localhost:10056/blog/assets/icons/voidpxl-mark.svg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 09 Apr 2026 13:56:11 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:10056/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tutorials</title>
-      <link>http://localhost:1313/blog/categories/tutorials/</link>
+      <link>http://localhost:10056/blog/categories/tutorials/</link>
       <pubDate>Thu, 09 Apr 2026 13:56:11 +0800</pubDate>
-      <guid>http://localhost:1313/blog/categories/tutorials/</guid>
+      <guid>http://localhost:10056/blog/categories/tutorials/</guid>
       <description></description>
     </item>
   </channel>

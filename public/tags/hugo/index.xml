@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hugo on voidpxL&#39;s blog</title>
-    <link>http://localhost:1313/blog/tags/hugo/</link>
+    <link>http://localhost:10056/blog/tags/hugo/</link>
     <description>Recent content in Hugo on voidpxL&#39;s blog</description>
     <image>
       <title>voidpxL&#39;s blog</title>
-      <url>http://localhost:1313/blog/assets/icons/voidpxl-mark.svg</url>
-      <link>http://localhost:1313/blog/assets/icons/voidpxl-mark.svg</link>
+      <url>http://localhost:10056/blog/assets/icons/voidpxl-mark.svg</url>
+      <link>http://localhost:10056/blog/assets/icons/voidpxl-mark.svg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 09 Apr 2026 13:56:11 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:10056/blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 AI 完善博客系统，让它能写文档也能绘图</title>
-      <link>http://localhost:1313/blog/posts/ai-blog-system/</link>
+      <link>http://localhost:10056/blog/posts/ai-blog-system/</link>
       <pubDate>Thu, 09 Apr 2026 13:56:11 +0800</pubDate>
-      <guid>http://localhost:1313/blog/posts/ai-blog-system/</guid>
+      <guid>http://localhost:10056/blog/posts/ai-blog-system/</guid>
       <description>结合 Hugo 博客与 AI 工作流，梳理一套可持续的写稿、配图、校验与发布方案。</description>
     </item>
     <item>
       <title>我是怎么搭建自己的个人网站的</title>
-      <link>http://localhost:1313/blog/posts/%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84/</link>
+      <link>http://localhost:10056/blog/posts/%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84/</guid>
+      <guid>http://localhost:10056/blog/posts/%E6%88%91%E6%98%AF%E6%80%8E%E4%B9%88%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84/</guid>
       <description>目前对前端完全不懂, 基于开源资料和ChatGPT进行搭建, 效果基本也能够令我满意</description>
     </item>
   </channel>
