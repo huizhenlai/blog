@@ -1,20 +1,16 @@
 ---
 title: "面试官到底在看什么"
-summary: "最近参与校招和社招的技术面试的一点感悟和经验"
+summary: "结合校招和社招面试经历，总结候选人在准备、投递、沟通和面试阶段的常见误区。"
 date: 2026-04-25
 draft: false
 weight: 1
-tags: []  # 标签，可以是多个
+tags: ["Career", "Interview"]
 author: "lhz"  # 作者
-math: true
-series: ["工具与工作流"]
-hideTitle: true
+math: false
+series: []
+hideTitle: false
 featured: true
 ---
-
-
-
-# 面试官到底在看什么
 
 ## 副标题
 
@@ -391,4 +387,3 @@ JD 不是装饰文字。它至少告诉你三件事：
 证明自己不仅**能做事**，还能**合作**，并且能够**落地**。
 
 这才是候选人准备求职最有价值的一条主线。
-

@@ -1,18 +1,16 @@
 ---
 title: "3D detection by RC fusion"
-summary: A survey about 3D detction.
+summary: "梳理毫米波雷达与摄像头融合的 3D 目标检测方法、数据集和工程约束。"
 date: 2025-03-25
 draft: false
 weight: 5
-tags: [Camera ,Mmware Radar, Fusion]  # 标签，可以是多个
+tags: ["Camera", "mmWave Radar", "Fusion"]
 author: "lhz"  # 作者
 math: true
-series: ["传感器融合"]
+series: ["雷达与视觉融合"]
 featured: true
-hideTitle: true
+hideTitle: false
 ---
-
-# 3D detection by RC fusion
 
 开宗明义，我需要实现**基于毫米波雷达和视觉的3D目标检测**，其中主要是需要获取目标的**类别、位置、尺寸、速度**，在此基础上，结合车道线检测和自测速，形成一个较为完备的自动驾驶环境感知系统。
 
@@ -50,7 +48,7 @@ hideTitle: true
 
 
 
-# Radar and Camera Fusion for Object Detection and Tracking: A Comprehensive Survey
+## Radar and Camera Fusion for Object Detection and Tracking: A Comprehensive Survey
 ## Where  to fusion
 
 1. 前视图融合 (Front View, FV)
@@ -182,4 +180,3 @@ Depth Estimation from Monocular Images and Sparse Radar Data
 BEVFormer 南大&上海AI实验室 ： 纯视觉生成BEV
 
 VPN：Cross-view Semantic Segmentation for Sensing Surroundings  https://github.com/pbw-Berwin/View-Parsing-Network
-

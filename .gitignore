@@ -1,0 +1,13 @@
+# Hugo 生成目录和本地缓存不进入版本控制。
+/public/
+/resources/
+/.hugo_cache/
+/.hugo_build.lock
+
+# 常见本地临时文件。
+.DS_Store
+Thumbs.db
+
+# Python 测试缓存。
+__pycache__/
+*.py[cod]

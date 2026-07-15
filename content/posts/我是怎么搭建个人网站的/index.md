@@ -1,17 +1,16 @@
 ---
 title: "我是怎么搭建自己的个人网站的"
-summary: "目前对前端完全不懂, 基于开源资料和ChatGPT进行搭建, 效果基本也能够令我满意"
+summary: "记录从零使用 Hugo、PaperMod 和 AI 工具搭建个人技术博客的实践过程。"
 date: 2025-03-25
 draft: false 
 weight: 9
-tags: [Hugo]  # 标签，可以是多个
+tags: ["Hugo", "PaperMod"]
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
-series: ["工具与工作流"]
-hideTitle: true
+series: ["博客建设"]
+math: false
+hideTitle: false
 ---
-
-# 我是怎么搭建自己的个人网站的
 
 ## KaTex
 

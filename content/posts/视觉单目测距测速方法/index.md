@@ -1,18 +1,16 @@
 ---
 title: "单目测距测速方法"
-summary: 基于单目摄像头的测距测速方法探索和总结，先专注于传统方法，不去做深度学习
+summary: "总结基于单目摄像头的传统测距与测速方法，重点讨论几何约束和工程局限。"
 date: 2025-04-03
 draft: false
 weight: 4
-tags: [Camera]  # 标签，可以是多个
+tags: ["Camera", "Monocular Vision", "Velocity Estimation"]
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
 math: true
-series: ["传感器融合"]
-hideTitle: true
+series: ["视觉几何与测速"]
+hideTitle: false
 ---
-
-# 单目测距测速方法
 
 1. 检测框位置
 2. 车道线辅助

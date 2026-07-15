@@ -4,17 +4,15 @@ summary: 定义雷达和摄像头的参考系，并进行坐标转换。
 date: 2025-03-25
 draft: false
 weight: 7
-tags: [Camera ,Mmware Radar, Fusion]  # 标签，可以是多个
+tags: ["Camera", "mmWave Radar", "Calibration", "Fusion"]
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
 math: true
-series: ["传感器融合"]
-hideTitle: true
+series: ["标定与坐标系"]
+hideTitle: false
 ---
 
 ![RC_coordiante](RC_coordiante.png)
-
-# 雷视外参标定
 
 ## 雷达坐标轴
 
@@ -54,4 +52,3 @@ $$
 - $T_x$：雷达到摄像头的水平偏移（左右）。
 - $T_y$：雷达到摄像头的前后偏移。
 - $T_z$：雷达到摄像头的垂直高度差。
-

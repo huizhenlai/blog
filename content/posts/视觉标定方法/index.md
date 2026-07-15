@@ -4,16 +4,14 @@ summary: 描述了内参和畸变的相关原理，并提供方案进行内参�
 date: 2025-03-25
 draft: false 
 weight: 6
-tags: [Camera]  # 标签，可以是多个
+tags: ["Camera", "Calibration"]
 categories: ["Tutorials"]  # 分类
 author: "lhz"  # 作者
 math: true
-series: ["传感器融合"]
+series: ["标定与坐标系"]
 featured: false
-hideTitle: true
+hideTitle: false
 ---
-
-# 视觉标定方法
 
 ## 基本原理
 

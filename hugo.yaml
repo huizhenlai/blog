@@ -33,7 +33,8 @@ params:
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-  math : true
+  # 数学资源按文章的 `math` 字段加载，避免所有页面都请求 KaTeX。
+  math: false
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true

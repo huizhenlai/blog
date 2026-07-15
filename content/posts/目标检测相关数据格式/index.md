@@ -1,17 +1,16 @@
 ---
-title: "Object detection data format"
-summary: Describe the object detection data fomrat such as YOLO, COCO and VOC
+title: "目标检测数据格式：YOLO、COCO 与 VOC"
+summary: "对比 YOLO、COCO 和 VOC 三种常见目标检测数据格式及其转换方法。"
 date: 2025-03-17
 draft: false 
 weight: 10
-tags: ["Object Detetion"]  # 标签，可以是多个
+tags: ["Object Detection", "Dataset"]
 categories: ["Tutorials"]  # 分类
-series: ["传感器融合"]
+series: ["目标检测工程实践"]
 author: "lhz"  # 作者
-hideTitle: true
+math: true
+hideTitle: false
 ---
-
-# Object Detection Data Format
 
 三个类型: YOLO、COCO、VOC
 

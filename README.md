@@ -68,6 +68,17 @@ http://localhost:1313/blog/
 powershell -NoProfile -ExecutionPolicy Bypass -File .\run_build.ps1
 ```
 
+构建输出会写入 `public/`，缓存会写入 `.hugo_cache/` 和 `resources/`。这些目录都是可重复生成的产物，已通过 `.gitignore` 排除，不应提交到 Git。GitHub Pages 会在 Actions 中重新构建并直接部署 `public/`。
+
+如果旧版本仓库已经跟踪过构建产物，需要执行一次：
+
+```powershell
+git rm -r --cached public resources
+git rm --cached .hugo_build.lock
+```
+
+这只会取消 Git 跟踪，不会删除本地文件。此后生产构建不应再制造大批无意义差异。
+
 ## 可视化管理工具
 
 ```powershell
@@ -197,12 +208,17 @@ series: ["雷达与视觉融合"]
 
 结论：系列名尽量固定，少而稳。
 
-目前定义以下系列：
-1. 工具与工作流
-2. 传感器融合
-3. 雷达数据处理
-4. AI技术探索
-5. 其他
+目前统一使用以下系列：
+
+1. `雷达与视觉融合`
+2. `标定与坐标系`
+3. `视觉几何与测速`
+4. `目标检测工程实践`
+5. `博客建设`
+6. `雷达感知笔记`
+7. `工具与工作流`
+
+不属于连续主题的文章允许将 `series` 留空，不要为了归档而创建“其他”一类的兜底系列。
 
 ### 标签
 
@@ -285,7 +301,7 @@ hugo new content posts/my-new-post/index.md
 
 ## 备注
 
-站点里已经有一篇示例文章模板：
+站点里保留了一篇草稿状态的示例文章模板：
 
 - [template.md](/blog/content/posts/template.md)
 

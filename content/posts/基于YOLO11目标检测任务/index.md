@@ -1,18 +1,16 @@
 ---
 title: "基于YOLO11微调BDD100K的目标检测任务"
-summary: Ultralytics实现的YOLO11版本，在车载任务上模型略有不足，在BDD100K数据集上进行微调，以实现恶劣天气、光照条件下的目标检测，还加入了yolov5的版本。
+summary: "使用 BDD100K 微调 YOLO11，记录车载目标检测在恶劣天气和复杂光照条件下的训练实践。"
 date: 2025-04-10
 draft: false
 weight: 3
-tags: [Camera]  # 标签，可以是多个
+tags: ["Camera", "Object Detection", "YOLO"]
 author: "lhz"  # 作者
 math: true
-series: ["传感器融合"]
+series: ["目标检测工程实践"]
 featured: false
-hideTitle: true
+hideTitle: false
 ---
-
-# 基于YOLO11微调BDD100K的目标检测任务
 
 ## BDD100K数据集简介
 
@@ -414,11 +412,10 @@ result = model.train(data = "100k/test/*.jpg", save = True, conf = 0.5)
 
 
 
-# Reference
+## 参考
 
 1. [BDD100K: A Large-scale Diverse Driving Video Database – The Berkeley Artificial Intelligence Research Blog](https://bair.berkeley.edu/blog/2018/05/30/bdd/)
 2. [bdd100k/bdd100k: Toolkit of BDD100K Dataset for Heterogeneous Multitask Learning )](https://github.com/bdd100k/bdd100k)
 3. [MaoJiayang/yolo_detection](https://github.com/MaoJiayang/yolo_detection/tree/master)
 4. [在运行Yolov8时报错RuntimeError: torch.cat(): expected a non-empty list of Tensors的解决方法-CSDN博客](https://blog.csdn.net/m0_73930473/article/details/139249976)
 5. [yolov11模型在bdd100k数据集上的应用【代码+数据集+python环境+训练/应用GUI系统】_yolo11 bdd100k-CSDN博客](https://blog.csdn.net/qz1992/article/details/142678947)
-
